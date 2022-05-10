@@ -1,5 +1,40 @@
+:root {
+  --primary-width: 350px;
+  --secondary-width: 700px;
+  --photo-radius: 4px;
+  --primary-background-color: #faf8f7;
+  --secondary-background-color: white;
+}
+
+body {
+  background-color: var(--primary-background-color);
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: var(--secondary-background-color);
+  max-width: var(--secondary-width);
+}
+
 .center-content {
   display: block;
   margin: 0 auto;
   text-align: center;
+}
+
+.croissant-plate,
+.sugar-croissant {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  max-width: var(--primary-width);
+  border-radius: var(--photo-radius);
+}
+
+.links {
+  margin-bottom: 30px;
 }
